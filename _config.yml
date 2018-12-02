@@ -8,8 +8,6 @@ keyword: "java, 数据库, 前端, 动漫, 游戏(王者荣耀,吃鸡), 运动, 
 url: "https://cholechow1.github.io"         # your host, for absolute UR
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/CholeChow1/CholeChow1.github.io.git"
-home_repo: "http://fujishiro.cn"
-
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "一个平凡的人却有着大大的梦"
