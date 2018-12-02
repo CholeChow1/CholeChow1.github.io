@@ -2,7 +2,7 @@
 title: Liyong's Blog
 SEOTitle: 一个神奇的网站
 header-img: img/index.jpg
-email:2321591758@qq.com
+email: 2321591758@qq.com
 description: "人生短暂,珍惜边的每一个人"
 keyword: "java, 数据库, 前端, 动漫, 游戏(王者荣耀,吃鸡), 运动， 旅行"
 url: "https://cholechow1.github.io"         # your host, for absolute UR
@@ -101,21 +101,18 @@ service-worker: true
 links: [
     {
         title: "个人のGitHub",
-        href: "https://github.com/FujishiroOtone	"
+        href: "https://github.com/CholeChow1"
     },{
-        title: "简书·Otone",
-        href: "https://www.jianshu.com/u/3bf62aac1afc"
-    },{
-        title: "Twitter",
-        href: "https://twitter.com/osuHatsuneMiku"
+        title: "简书·Liyong",
+        href: "https://www.jianshu.com/u/6c1284ced65e"
     },{
         title: "个人のbilibili",
-        href: "https://space.bilibili.com/1880573/#/"
+        href: "space.bilibili.com/105316984?spm_id_from=333.33.b_73656375726974794f75744c696e6b.1"
     },{
-        title: "asdfv1929",
-        href: "https://asdfv1929.github.io/"
+        title: "CSDN.liyong",
+        href: "https://me.csdn.net/java__liyong"
     },{
-        title: "月小水长",
-        href: "https://inspurer.github.io/"
+        title: "知乎.liyong",
+        href: "https://www.zhihu.com/people/li-yong-ji-suan-ji/activities"
     }
 ]
