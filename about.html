@@ -130,11 +130,11 @@ header-img: "img/about.jpg"
                 <div id="gitalk-container"></div>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
-                     clientID: '7622dda9c9dcdc68734c',
-                    clientSecret: 'e3aef688104b2769b4dd7c325d33092e522b7eaa',
-                    repo: 'https://github.com/CholeChow1/CholeChow1.github.io',
-                    owner: 'CholeChow1',
-                    admin: ['CholeChow1'],
+                      clientID: '{{site.gitalk.clientID}}',
+                    clientSecret: '{{site.gitalk.clientSecret}}',
+                    repo: '{{site.gitalk.repo}}',
+                    owner: '{{site.gitalk.owner}}',
+                    admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
                     id: window.location.pathname,
                     });
