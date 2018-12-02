@@ -61,8 +61,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true  #是否开启Gitalk评论
-  clientID: 7622dda9c9dcdc68734c                            #生成的clientID
-  clientSecret: e3aef688104b2769b4dd7c325d33092e522b7eaa   #生成的clientSecret
+  clientID: 7e7ca0f24e79641b2d24                            #生成的clientID
+  clientSecret: a8cdb2aa09ad6f4a24903790ea9ba03cc302d4a1   #生成的clientSecret
   repo: CholeChow1.github.io    #仓库名称
   owner: CholeChow1    #github用户名
   admin: CholeChow1
