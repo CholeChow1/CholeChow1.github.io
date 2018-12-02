@@ -7,7 +7,7 @@ description: "人生短暂,珍惜边的每一个人"
 keyword: "java, 数据库, 前端, 动漫, 游戏(王者荣耀,吃鸡), 运动， 旅行"
 url: "https://cholechow1.github.io"         # your host, for absolute UR
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/FujishiroOtone/FujishiroOtone.github.io" # you code repository
+github_repo: "https://github.com/CholeChow1/CholeChow1.github.io" # you code repository
 home_repo: "http://fujishiro.cn"
 
 # Sidebar settings
