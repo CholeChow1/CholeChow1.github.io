@@ -3,8 +3,8 @@ title: Liyong's Blog
 SEOTitle: 一个神奇的网站
 header-img: img/index.jpg
 email: 2321591758@qq.com
-description: "人生短暂,珍惜边的每一个人"
-keyword: "java, 数据库, 前端, 动漫, 游戏(王者荣耀,吃鸡), 运动， 旅行"
+description: " 人生短暂-珍惜边的每一个人 "
+keyword: " java, 数据库, 前端, 动漫, 游戏(王者荣耀,吃鸡), 运动, 旅行 "
 url: "https://cholechow1.github.io"         # your host, for absolute UR
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/CholeChow1/CholeChow1.github.io" # you code repository
@@ -19,8 +19,8 @@ sidebar-avatar: /img/about-Otone.jpg      # use absolute URL, seeing it's used i
 
 # SNS settings
 RSS: false
-weibo_username:     Chole珂珂
-zhihu_username:     李勇-计算机
+weibo_username:     6056675330
+zhihu_username:     li-yong-ji-suan-ji
 github_username:    CholeChow1
 facebook_username:  李勇
 jianshu_username:  6c1284ced65e
