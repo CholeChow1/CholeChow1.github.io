@@ -111,4 +111,5 @@ links: [
     },{
     titie: "爱心",
     href:  "{{'/love/' | prepend: site.baseurl }}"
+    }
 ]
