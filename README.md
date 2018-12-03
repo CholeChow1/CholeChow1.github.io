@@ -1,4 +1,4 @@
-## Otone Blog
+## Liyong's Blog
 
 ### [我的博客在这里 &rarr;](http://blog.fujishiro.cn)
 
