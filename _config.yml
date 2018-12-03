@@ -77,10 +77,7 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'UA-130240864-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
-
-
-
+ga_domain: www.imlowliness.club
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
