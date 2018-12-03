@@ -110,6 +110,6 @@ links: [
         href: "https://www.zhihu.com/people/li-yong-ji-suan-ji/activities"
     },{
     titie: "爱心",
-    href:  "{{'/love/' | prepend: site.baseurl }}"
+    href: "https://github.com/CholeChow1/CholeChow1.github.io/blob/master/Love.html"
     }
 ]
