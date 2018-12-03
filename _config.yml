@@ -11,7 +11,7 @@ github_repo: "https://github.com/CholeChow1/CholeChow1.github.io.git"
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "一个平凡的人却有着大大的梦"
-sidebar-avatar: /img/about-Otone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/img_3.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
