@@ -1,0 +1,105 @@
+---
+layout:     post
+title:      java数据结构之快速排序！
+subtitle:   java简单的数据结构
+date:       2018-12-14
+author:     李勇
+header-img: img/post-12-14-3.png
+catalog: true
+tags:
+    - Java
+    - 数据结构
+    - 快速排序
+---
+
+## 1st ##
+**快速排序（Quicksort）是对冒泡排序的一种改进。**
+
+**快速排序由 C. A. R. Hoare 在 1962 年提出。**
+
+
+ 它的基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，
+ 然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
+
+## 2st ##
+**java代码如下：**
+   ```
+package 数据结构;
+
+public class kuaisupaixu {
+    public static int quicksort(long arr[],int left,int right,long center){//一开始用最右边的数据作为中间值
+    	int leftenum=left-1;
+    	int rightenum=right;
+    	while(true){
+    		while(leftenum<rightenum&&arr[++leftenum]<center);
+    		while(rightenum>leftenum&&arr[--rightenum]>center);
+    		if(leftenum>=rightenum){
+    			break;
+    		}
+    		else{//如果此时左边下标没有大于右边，则互相交换数据即可
+    			long change;
+    		change=arr[leftenum];
+    		arr[leftenum]=arr[rightenum];
+    		arr[rightenum]=change;
+    		}
+    	}
+    	long change1;//循环结束的位置与中间值数据交换
+    	change1=arr[right];
+    	arr[right]=arr[leftenum];
+    	arr[leftenum]=change1;
+    	return leftenum;//得到的位置作为下一次排序的中间值
+    }
+    public static void display(long arr[]){//打印数据
+    	for(int i=0;i<arr.length;i++){
+    		System.out.print(arr[i]+" ");
+    		
+    	}
+    	System.out.println("\n");
+    }
+    public static void sort(long arr[],int left,int right){//递归进行排序
+    	if(right-left<=0){
+    		return;
+    	}
+    	else{
+    		long point=arr[right];//设置关键字
+    		int rr=quicksort(arr,left,right,point);
+    		sort(arr,left,rr-1);//对左边快速排序
+    		sort(arr,rr+1,right);//对右边快速排序
+    	}
+    }
+}
+
+```
+
+----
+
+
+  
+## 3st ##
+**测试：**
+```
+package 数据结构;
+
+public class Testkuaisupaixu {
+public static void main(String args[]){
+	long arr[]=new long[10];
+	for(int i=0;i<10;i++){
+		arr[i]=(long)(Math.random()*99);
+	}
+	kuaisupaixu.display(arr);
+	kuaisupaixu.sort(arr, 0, arr.length-1);
+	kuaisupaixu.display(arr);
+}
+}
+
+```
+
+**输出结果如下**
+
+![](https://raw.githubusercontent.com/CholeChow1/CholeChow1.github.io/master/img/kuaisupaixu.png)
+
+好啦,这次就到这里啦，有问题可以和我留言哦！ 
+
+下面日常放一张杂图 嘻嘻嘻
+
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544804911696&di=90a31fe49530a983178153aa874f8f88&imgtype=0&src=http%3A%2F%2Fp1.pstatp.com%2Forigin%2F31e10000cfe690d5d79c)
