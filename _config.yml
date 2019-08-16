@@ -114,5 +114,8 @@ links: [
     },{
         title: "照片墙",
         href: "http://www.imlowliness.club/MyPhoto/"
-    }
+    },{
+        title: "首发名单",
+        href: "http://www.imlowliness.club/KPLFirst/"
+   }
  ]
